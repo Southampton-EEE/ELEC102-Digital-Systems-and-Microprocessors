@@ -6,7 +6,7 @@ CMOS stands for Complimentary Metal Oxide Silicon. It is a collection of two dif
 
 ## NMOS
 
-<!--![](fig1)-->
+![An NMOS Transistor](NMOS.png)
 
 * Conducts for $V > x$, where $x$ is a threshold.
 * On resistance is $\approx 10^2\Omega$.
@@ -14,7 +14,7 @@ CMOS stands for Complimentary Metal Oxide Silicon. It is a collection of two dif
 
 ## PMOS
 
-<!--![](fig2)-->
+![A PMOS Transistor](PMOS.png)
 
 * Conducts for $V < x$, where $x$ is a threshold.
 * On resistance is $\approx 10^2\Omega$.
@@ -24,11 +24,11 @@ CMOS stands for Complimentary Metal Oxide Silicon. It is a collection of two dif
 
 Recall inverters from previous lectures.
 
-<!--![](fig3)-->
+![An inverter.](Inverter_R.png)
 
 But because we want our circuit to be use only transistors we can use another transistor in place of the resistors. 
 
-<!--![](fig4)-->
+![An inverter using only transistors.](Inverter_T.png)
 
 But this acts as a potential divider, so the output voltage is half the input voltage, and therefore in the *forbidden region*.
 
@@ -36,7 +36,8 @@ To prevent this from happening both inverters need ratioing to ensure $V_{OL}<<V
 
 This can be done by combining the two technologies:
 
-<!--![](fig5)-->
+<!--Hack so pandoc works-->
+<!--![A CMOS inverter.](Inverter_C.png)-->
 
 | Input | P | N | Output |
 |-------|---|---|--------|
@@ -47,7 +48,11 @@ This circuit now doesn't need ratioing as you have a complimentary technologies.
 
 ## CMOS NAND
 
-<!--![](fig6)-->
+![A CMOS NAND gate.](NAND.png)
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Which gives us a characteristic table, including the states of each transistor as follows
 
 | A | B | $N_1$ | $N_2$ | $P_1$ | $P_2$ | Output |
 |---|---|-------|-------|-------|-------|--------|
