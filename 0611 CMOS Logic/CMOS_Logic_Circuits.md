@@ -43,7 +43,7 @@ This can be done by combining the two technologies:
 |  0    |On |Off|1       |
 |  1    |Off|On |0       |
 
-This circuit now dons't need ratioing as you have a complimentary technologies. 
+This circuit now doesn't need ratioing as you have a complimentary technologies. 
 
 ## CMOS NAND
 
